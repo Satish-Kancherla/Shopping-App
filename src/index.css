@@ -12,6 +12,7 @@ body{
 .container-nav .search input{
   height: 30px;
 }
+
 h2{
   text-align: center;margin: 20px 0;;font-size: 40px;
 }
@@ -27,7 +28,13 @@ h2{
   width:80%;
 }
 .nav-bar{
-  background-color: darksalmon;color: white;height: 50px;
+  background-color: lightgray;height: 50px;font-weight: bold;
+}
+.nav-bar a{
+  color: black;
+}
+.nav-bar a:hover{
+  color: brown;
 }
 .nav-bar li{
   display:inline-flex; font-size: 20px;
