@@ -3,6 +3,9 @@ import img2 from './MenWear/2.jpg';
 import img3 from "./Watch/3.jpg";
 import img4 from "./NewMobile/4.jpg";
 import img5 from "./Computers/5.jpg";
+import img6 from "./speakers/6.jpg";
+import img7 from "./Woman/2.jpg";
+import img8 from "./MenWear/4.jpg"
 
 
 const data1 = [{
@@ -57,6 +60,37 @@ const data1 = [{
     "category": "Electronics",
     "description": "A gaming laptop with high-performance graphics and advanced cooling technology."
 },
+{
+    "product": "Speaker",
+    "image": img6,
+    "name": "Harman Kardon Aura Studio 3",
+    "new_price": "249.99",
+    "old_price":"499.00",
+    "category": "Electronics",
+    "description": "A visually striking speaker with ambient lighting and powerful audio quality."
+},
+{
+    "id": "2",
+    "product": "Woman Wear",
+    "image": img7,
+    "type": "Blouse",
+    "name": "H&M  Classic Silk",
+    "new_price": "49.90",
+    "old_price":"120.00",
+    "category": "Clothing",
+    "description": "A classic silk blouse suitable for professional and casual settings."
+},
+{
+    "id": "4",
+    "product": "Menswear",
+    "image":img8,
+    "type": "Polo Shirt",
+    "name": "Ralph Lauren Signature Polo",
+    "new_price": "69.00",
+    "old_price":"250.00",
+    "category": "Clothing",
+    "description": "A classic polo shirt with the iconic Ralph Lauren logo, ideal for a refined casual look."
+}
 ];
 
 export default data1;

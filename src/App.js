@@ -3,6 +3,7 @@ import LoginSignup from "./Pages/LoginSignup";
 import Product from "./Pages/Product";
 import Shop from "./Pages/Shop";
 import ShopCategory from "./Pages/ShopCategory";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar";
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 
@@ -23,7 +24,7 @@ function App() {
           <Route path="/login" element={<LoginSignup />}/>
         </Routes>
         </BrowserRouter>
-        
+        <Footer />
     </div>
   );
 }
