@@ -1,0 +1,21 @@
+.newsletters{
+    width: 65%;height: 40vh;display: flex;flex-direction: column;align-items: center;justify-content: center;margin: auto;
+    padding: 0 140px;margin-bottom: 150px;background: linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%);gap:30px
+}
+.newsletters h1{
+    color: #454545;font-size: 55px;font-weight: 600;
+}
+.newsletters p{
+    color: #454545;font-size: 20px;font-weight: 500;
+}
+.newsletter-email{
+    display: flex;align-items: center;justify-content: space-between;background-color: white;width: 730px ;height: 60px;border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+
+.newsletter-email input{
+    width: 500px;height: 50px;margin-left: 30px;border: none;outline: none;color: #616161;font-family: poppins;font-size: 16px;
+}
+.newsletter-email button{
+    width: 200px;height: 60px;border-radius: 80px;background-color: black;color: white;font-size: 16px;cursor: pointer;
+}
