@@ -16,14 +16,6 @@ const ShopContextProvider = (props) =>{
 
     const [cartItem,setCartItem] = useState(getDefaultCart());
 
-    /* const addToCart=(item)=>{
-        setCartItem([...cartItem,item])
-        console.log(cartItem);
-    }
-    const removeFromCart=(item)=>{
-        setCartItem(cartItem.filter((item1)=>item1!==item))
-    } */
-
     const addToCart=(itemId)=>{
         setCartItem((prev)=>({...cartItem,[itemId]:prev[itemId]+1}));
     }
@@ -41,9 +33,10 @@ const ShopContextProvider = (props) =>{
                 let itemInfo = All_Data.find((product)=>product.id===Number(item));
                 totalAmount += cartItem[item] * itemInfo.new_price;
             }
-            return totalAmount;    
+              
         }
         
+        return totalAmount;  
     }
     const getTotalCartItems =() =>{
         let totalItem =0;
