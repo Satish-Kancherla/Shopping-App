@@ -18,20 +18,21 @@ body{
   color: #171717; font-size: 38px; font-weight: 600;
 }
 .menu{
-  display: flex; align-items: center;list-style: none;gap: 50px;color: #626262;font-size: 20px;font-weight: 500;
-}
-
-.menu hr{
-  border: none;width: 90%;height: 3px;border-radius: 10px;background-color: #FF4141;
+  display: flex; align-items: center;list-style: none;gap: 50px;font-size: 20px;/* color: #626262;font-weight: 500; */font-weight: bold;
 }
 .menu li{
   display: flex;flex-direction: column;align-items: center;justify-content: center;cursor: pointer;
 }
+
+
 .cart{
   display: flex;align-items: center;gap: 45px;
 }
 .cart img{
   width: 40px;
+}
+.menu hr{
+  border: none;width: 90%;height: 3px;border-radius: 10px;background-color: #FF4141;
 }
 .cart button{
   width: 120px;height: 40px;outline: none;border: 1px solid #7a7a7a;border-radius: 75px;color: #515151;

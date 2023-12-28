@@ -1,6 +1,6 @@
 .footer{
     display: flex;flex-direction: column;justify-content: center;
-    align-items: center;gap: 50px;
+    align-items: center;gap: 40px;
 }
 .footer-logo{
     display: flex;align-items: center;gap: 20px;
@@ -32,5 +32,5 @@
     width: 60px;
 }
 .footer-icons img{
-    width: 60px;
+    width: 40px;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import amazon from "../assets/social.png";
+import amazon from "../assets/amazon-favicon.png";
 import fb from "../assets/facebook.png";
 import youtube from "../assets/youtube.png";
 import whatsapp from "../assets/whatsapp.png";
@@ -24,11 +24,12 @@ const Footer = () => {
                 <img src={whatsapp} alt=''/>
             </div>
             <div className="footer-icons">
-                <img src={fb} alt=''/>
-            </div>
-            <div className="footer-icons">
                 <img src={youtube} alt=''/>
             </div>
+            <div className="footer-icons">
+                <img src={fb} alt=''/>
+            </div>
+            
         </div>
         <div className="footer-copyright">
             <hr/>

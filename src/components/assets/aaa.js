@@ -1,11 +1,12 @@
-import img1 from "./Woman/1.jpg";
-import img2 from "./Woman/2.jpg";
-import img3 from "./Woman/3.jpg";
-import img4 from "./Woman/4.jpg";
+import img1 from "./WomanWear/5.jpg";
+import img12 from "./MenWear/8.jpg";
+import img55 from "./NewMobile/5.jpg";
+import img80 from "./Watch/10.jpg";
+import img8 from "./Computers/8.jpg";
 
 const data = [{
 
-    id: "1",
+    id: "31",
     "product": "Woman Wear",
     "image": img1,
     "type": "Dress",
@@ -16,40 +17,49 @@ const data = [{
     
 },
 {
-    "id": "2",
-    "product": "Woman Wear",
-    "image": img2,
-    "type": "Blouse",
-    "name": "H&M",
-    "model": "Classic Silk",
-    "new_price": "49.90",
-    "old_price":"55.99",
-    "category": "Clothing",
-    "description": "A classic silk blouse suitable for professional and casual settings."
+    "id": "12",
+    "category": "Men",
+    "image": img12,
+    "type": "Dress Shirt",
+    "model": "",
+    "name": "Calvin Klein ClassicFit",
+    "new_price": "49.99",
+    "old_price": "56.00",
+    
+    "description": "A classic fit dress shirt made from high-quality fabric, suitable for formal occasions."
 },
 {
-    "id": "3",
-    "product": "Woman Wear",
-    "image": img3,
-    "type": "Jeans",
-    "name": "Levi's",
-    "model": "501 Skinny",
-    "new_price": "89.50",
-    "old_price":"96.99",
-    "category": "Clothing",
-    "description": "Skinny fit jeans with a classic 5-pocket design, perfect for everyday wear."
+    "id": "55",
+    "category": "Mobile",
+    "image": img55,
+    "name": "Xiaomi",
+    "model": "Mi 11 Ultra",
+    "new_price": "999.50",
+    "old_price": "1099.00",
+    
+    "description": "A high-spec Xiaomi phone with a versatile camera system and powerful hardware."
 },
 {
-    "id": "4",
-    "product": "Woman Wear",
-    "image": img4,
-    "type": "Jumpsuit",
-    "name": "Forever 21",
-    "model": "Utility Jumpsuit",
-    "new_price": "59.99",
-    "old_price":"65.99",
-    "category": "Clothing",
-    "description": "A utility-style jumpsuit with a modern and versatile look."
+    "id": "80",
+        "category": "Watch",
+        "image": img80,
+        "name": "Seiko SKX007",
+        "model": "",
+        "new_price": "199.50",
+        "old_price": "249.00",
+       
+        "description": "A classic Seiko diver's watch known for its reliability and timeless design."
+},
+{
+    "id": "8",
+    "category": "Computer",
+    "image": img8,
+    "name": "Alienware Aurora R10",
+    "model": "",
+    "new_price": "1999.00",
+    "old_price": "2999.00",
+    
+    "description": "A high-end gaming desktop with customizable components and advanced graphics capabilities."
 }];
 
 export default data;

@@ -1,7 +1,7 @@
 import wave from "../assets/wave.png";
 import React from 'react'
-import wo from "../assets/wom.jpg"
-import arrow from"../assets/right-arrow.png"
+import wo from "../assets/women.png"
+// import arrow from"../assets/right-arrow.png"
 import "./Hero.css";
 
 const Hero = () => {
@@ -17,10 +17,10 @@ const Hero = () => {
                 <p>collections</p>
                 <p>for everyone</p>
             </div>
-            <div className="hero-latest">
+            {/* <div className="hero-latest">
                 <div>Latest Collection</div>
                 <img src={arrow} alt=''/>
-            </div>
+            </div> */}
         </div>
         <div className="hero-right">
             <img src={wo} alt=''/>

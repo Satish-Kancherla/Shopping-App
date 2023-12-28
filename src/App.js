@@ -14,11 +14,13 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Shop />}/>
-          <Route path="/mens" element={<ShopCategory category="men"/>}/>
-          <Route path="/womens" element={<ShopCategory category="women"/>}/>
-          <Route path="/kids" element={<ShopCategory category="kid"/>}/>
-          <Route path="/product" element={<Product />}>
-            <Route path=":productId" element={<Product/>}/>
+          <Route path="/mens" element={<ShopCategory category="Men"/>}/>
+          <Route path="/womens" element={<ShopCategory category="WomanWear"/>}/>
+          <Route path="/computers" element={<ShopCategory category="Computer"/>}/>
+          <Route path="/mobiles" element={<ShopCategory category="Mobile"/>}/>
+          <Route path="/watches" element={<ShopCategory category="Watch"/>}/>
+          <Route path="/product/:id" element={<Product />}>
+            {/* <Route path=":productId" element={<Product/>}/> */}
           </Route>
           <Route path="/cart" element={<Cart />}/>
           <Route path="/login" element={<LoginSignup />}/>
